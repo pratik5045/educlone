@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.branch-container{
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.upper-branch{
+    height: 50%;
+    width: 70%;
+    /* background-color: blueviolet; */
+    margin-left: 14.5vw;
+    display: flex;
+}
+
+
+.left-branch{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    margin: 3.5vw;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.right-branch{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+}
+.left-branch h5{
+    padding: 1vw;
+}
+.logo1{
+    display: flex;
+}
+.logo1 img{
+    padding-left: 1vh;
+    width: 4vh;
+    height: 4vh;
+    margin-top: 1vh;
+}
+.logo1 p{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    font-size: 2vh;
+}
+.logo2 p{
+    margin-top: 1.5vh;
+}
+.lower-branch{
+    height: 50%;
+    width: 100%;
+    background-image: url(p4.svg);
+    background-size: cover;
+    display: flex;
+}
+.left-lower-branch{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.left-lower-branch img{
+    height: 10vh;
+    width: 10vh;
+}
+.left-lower-branch p{
+    margin-left: 1vw;
+    color: #dbd6d6;
+    font-size: 2vh;
+}
+.left-lower-branch strong{
+    font-weight: 400;
+    margin-top: 1vh;
+    font-size: 3vh;
+    color: #fff;
+}
+.right-lower-branch{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 13vw;
+}
+.right-lower-branch button{
+    padding: 1vh;
+    border-radius: 20px;
+    border: none;
+    width:10vw ;
+    height: 2.5vw;
+    color: #007bff;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: inset 0 0 0 0 #fff;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.right-lower-branch button:hover {                                                                                                                                                              
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: inset 200px 0 0 0 #007bff;
+}
